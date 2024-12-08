@@ -1,0 +1,20 @@
+.menu-1{
+	line-height:2;
+	border:1px solid #222;
+	position:relative;
+}
+.menu-1 .submenu{
+	position:absolute;
+	left:149px;
+	color: #fff;
+	top:-1px;
+	display:none;
+}
+.menu-1:hover{
+	background-color:#4CAF50;
+	color:white;
+}
+.menu-1 .submenu>li:hover{
+	background-color:white;
+	color:#4CAF50;
+}
