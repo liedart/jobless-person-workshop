@@ -13,12 +13,17 @@ body {
 a {
   text-decoration: none;
 }
+#wrap {
+  width: 100%;
+  /* margin-top = header height */
+  margin-top: 60px;
+}
 
  /* Navigation bar */
  header {
   /* for sticky header */
   position: fixed;/* fixed 프로퍼티 부모요소와 관계없이 브라우저의  viewport를 기준으로 좌표 프로퍼티(top, bottom, left, right).dmf tkdydgkdu dnlclfmf dlehd*/
-  top: 0;
+  top: 00;
 
   font-size: 2em;
   font-style: italic;
@@ -36,6 +41,7 @@ a {
   content: "";
   display: block;
   clear: both;
+  
 }
 
 aside {
@@ -46,9 +52,10 @@ aside {
   width: 200px;  /* 너비 고정 */
   padding-top: 25px;
   background-color: #333;
+  z-index: 100;
 }
 /* aside navigation */
-
+/**/
 aside > ol {
   width: 220px;
   padding:  20px;
@@ -90,15 +97,13 @@ aside > ol > li > ul > li > a {
 
 /* Section */
 section {
-  float: right;
+  float: left;
+  width: 100%;  
   /* aside width */
-  margin-left: 200px;
+  padding-left: 200px;
 }
 article {
   margin: 10px;
   padding: 25px;
   background-color: white;
 }
-
-
-
